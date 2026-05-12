@@ -26,7 +26,7 @@ public class Student {
 		System.out.println("Phone: " + phone);
 		System.out.println("Max value of long: " + Long.MAX_VALUE);
 		
-		System.out.println("Percentage: " + percentage);
+		System.out.println("Percentage: " + percentage);	
 		System.out.println("Max value of float: " + Float.MAX_VALUE);
 		
 		System.out.println("Passed: " + isPassed);
