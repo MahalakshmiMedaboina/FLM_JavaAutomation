@@ -40,8 +40,15 @@ public class ForLoopDemo {
 		//-----------------------------------------------------------
 		// write empty for loop & see the infinite loop
 		
-		for(;;) {
-			System.out.println("for loop testing");
+//		for(;;) {
+//			System.out.println("for loop testing");
+//		}
+		
+		//-----------------------------------------------------------
+		// WAP to print multiple variables together using for loop
+		
+		for(int i=0, j = 10; i<10; i++) {
+			System.out.println("value of i: "+ i + " value of j: "+ j); // only i values increments, j remains constant in this scenario
 		}
 		
 	}
