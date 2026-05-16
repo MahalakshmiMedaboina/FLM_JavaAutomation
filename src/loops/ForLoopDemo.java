@@ -31,12 +31,18 @@ public class ForLoopDemo {
 		//-----------------------------------------------------------
 		//WAP to print array string elements using enhanced for loop
 		
-		String fruits[] = {"Apple", "Mango", "Banana"};
+//		String fruits[] = {"Apple", "Mango", "Banana"};
+//		
+//		for(String f : fruits) {
+//			System.out.println("fruit : " + f);
+//		}
 		
-		for(String f : fruits) {
-			System.out.println("fruit : " + f);
+		//-----------------------------------------------------------
+		// write empty for loop & see the infinite loop
+		
+		for(;;) {
+			System.out.println("for loop testing");
 		}
-		
 		
 	}
 
