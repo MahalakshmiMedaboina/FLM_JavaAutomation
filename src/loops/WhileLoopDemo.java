@@ -12,7 +12,11 @@ public class WhileLoopDemo {
 			phoneBattery += 5; // increment to 5 percent
 			
 			if(phoneBattery == 80) // i want to stop charging when it reach 80
-				break;
+				break; // stops execution
+			
+			if (phoneBattery == 5)				
+				continue; // skips that iteration
+				
 			
 			System.out.println("Battery percent: " + phoneBattery);
 		}
