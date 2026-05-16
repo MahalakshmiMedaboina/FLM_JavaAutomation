@@ -47,8 +47,12 @@ public class ForLoopDemo {
 		//-----------------------------------------------------------
 		// WAP to print multiple variables together using for loop
 		
-		for(int i=0, j = 10; i<10; i++) {
-			System.out.println("value of i: "+ i + " value of j: "+ j); // only i values increments, j remains constant in this scenario
+//		for(int i=0, j = 10; i<10; i++) {
+//			System.out.println("value of i: "+ i + " value of j: "+ j); // only i values increments, j remains constant in this scenario
+//		}
+		//------------------------------------------------------------
+		for(int i = 0, j=0; i<=10; i++, j+=2) {
+			System.out.println("value of i: "+ i + " value of j: "+ j); //loop will run until condition satisfies
 		}
 		
 	}
