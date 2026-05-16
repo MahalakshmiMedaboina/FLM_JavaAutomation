@@ -55,6 +55,7 @@ public class ForLoopDemo {
 			System.out.println("value of i: "+ i + " value of j: "+ j); //loop will run until condition satisfies
 		}
 		
+		
 	}
 
 }
