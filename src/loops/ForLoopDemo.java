@@ -8,10 +8,17 @@ public class ForLoopDemo {
 //		for(int i=1; i<=5; i++) {
 //			System.out.println("value of i is: "+i);
 //		}
-		
+		//------------------------------------------------------------
 		//print 5 to 1 using for loop
-		for(int i=5; i>=1; i--) {
-			System.out.println("value of i is: "+i);
+//		for(int i=5; i>=1; i--) {
+//			System.out.println("value of i is: "+i);
+//		}
+		//------------------------------------------------------------
+		
+		// WAP to print even nums from 10 to 1
+		
+		for(int i = 10; i>= 1; i-=2) {
+			System.out.println(i);
 		}
 
 	}
