@@ -59,8 +59,55 @@ public class ArrayDemo {
 		for(String rangu : color) {
 			System.out.println("Value it is holding: " + rangu); //the no.of times loop will run for the no.of elements it contains
 		}
+		 
+//		----------------------------------------------------------------------------------
+		// write some basic math operation 
 		
-
+		int a = 2;
+		int b = 23;
+		
+		a += 3;
+		a %= 2;
+		b -= 3;
+		b /= 3;
+//		System.out.println("a current value "+a);
+//		System.out.println("b current value "+b);
+		
+		//----------------------------------------------------------------------------------
+		// Assignment: declare array with size 20, and assign values at each index, print it using for loop
+		
+		int[] arr = new int[20];
+		
+		arr[0] = 23;
+		arr[1] = 32;
+		arr[2] = 34;
+		arr[3] = 323;
+		arr[4] = 231;
+		arr[5] = 2345;
+		arr[6] = 12;
+		arr[7] = 11;
+		arr[8] = 234;
+		arr[9] = 890;
+		arr[10] = 895;
+		arr[11] = 32;
+		arr[12] = 34;
+		arr[13] = 323;
+		arr[14] = 231;
+		arr[15] = 2345;
+		arr[16] = 12;
+		arr[17] = 11;
+		arr[18] = 234;
+		arr[19] = 890;
+		
+		System.out.println("------------------- for loop----------------------------");
+		for(int i=0; i<arr.length; i++) {
+			System.out.println("array value num is holding now at index "+ i + " is:"+  arr[i]);
+		}
+		
+		System.out.println("------------------- enhance for loop----------------------------");
+		for(int num : arr) {
+			System.out.println("array value num is holding now : "+ num);
+		}
 		
 	}
 
