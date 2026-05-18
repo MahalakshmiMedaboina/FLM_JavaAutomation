@@ -32,9 +32,35 @@ public class ArrayDemo {
 		System.out.println("------------------- EX- 1(b)Int array ----------------------------");
 		
 		//same ex - 1(a) will write using loop
-		for(int i=0; i<3; i++) {
-			System.out.println("Value of index "+i+" is: " + grades[i]);
+//		for(int i=0; i<3; i++) {
+//			System.out.println("Value of index "+i+" is: " + grades[i]);
+//		}
+		
+		//-------------------------------------------------------------------------------------
+//		suppose idk for how many times i need to run the array, then we can use array.length, it will allocate dynamically
+		System.out.println("------------------- EX- 1(b)Int array using length in conditional ----------------------------");
+		
+//		for(int i=0; i<grades.length; i++) {
+//			System.out.println("Value of index "+i+" is: " + grades[i]);
+//		}
+		
+		//-----------------------------------------------------------------------------------
+		// will write same example using enhanced for loop
+		System.out.println("------------------- EX- 1(b)Int array using enhanced for loop----------------------------");
+		for(int temp: grades) {
+			System.out.println("Value of index is: " + temp); // in 1st iteration it will take value & keep it in temp, 2nd iteration it overrides the 1st value, same way for all
+						// so whatever variable we take ex: temp, that holds the value of that particular iteration.
+			}
+		
+		//----------------------------------------------------------------------------------
+		// write 
+		System.out.println("------------------- EX- 2(b)String array using enhanced for loop----------------------------");
+		
+		for(String rangu : color) {
+			System.out.println("Value it is holding: " + rangu); //the no.of times loop will run for the no.of elements it contains
 		}
+		
+
 		
 	}
 
