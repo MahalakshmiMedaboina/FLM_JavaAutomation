@@ -1,5 +1,9 @@
 package oop_Polymorphism;
 
+//WAP to for method overloading
+
+// method overloading means same method name but diff parameters & datatypes
+
 public class MethodOverloadingSum {
 	
 	void sum(int a, int b) {
@@ -14,13 +18,16 @@ public class MethodOverloadingSum {
 		}
 
 	public static void main(String[] args) {
-		// WAP to for method overloading
+		
 		
 		MethodOverloadingSum add = new MethodOverloadingSum();
 		add.sum(2, 3);
 		add.sum(1, 2, 3);
-		add.sum(21.2, 23.2);
+		add.sum(21.2, 23.2); 
 		
+		// if we give one value int & another double, what it will do?
+		
+		add.sum(21, 23.2);
 		
 
 	}
