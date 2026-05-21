@@ -27,7 +27,7 @@ public class MethodOverloadingSum {
 		
 		// if we give one value int & another double, what it will do?
 		
-		add.sum(21, 23.2);
+		add.sum(21, 23.2); // it is taking double
 		
 
 	}
